@@ -1,0 +1,42 @@
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+
+    body {
+        background-color: #EFEFEF;
+    }
+
+header {
+    width: 100;
+    height: 80px;
+    background-color: #727272;
+}
+
+h1 {
+    font-family:sans-serif;
+    font-size: 30x;
+    font-weight: 300;
+    color: #ffffff; 
+}
+
+
+.layout-grid {
+    width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+    border: 1px solid salmon;
+
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 400px;
+    height: 100%;
+    border: 3px solid white;
+}
