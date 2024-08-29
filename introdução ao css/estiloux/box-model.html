@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+        body {
+            background-color: rgb(195, 134, 252);
+        }
+
+        article {
+            width: 180px;
+            height: 180px;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 15px;
+            border: 1px dashed rgb(0, 0, 0);
+            border-radius: 10;
+            background-color: rgb(224, 202, 250);
+            text-align: center;
+            box-shadow: 2px 2px 5px black;
+        }  
+        article img {
+            width: 40px;
+            
+        }
+        article h1 {
+            text-align: center;
+            font-size: 18px;
+            font-family: cursive;
+            text-transform: uppercase;
+        }
+        artticle p {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+        }
+        .caixabranca1 {
+            background-color: white;
+        }
+        .caixaazul {
+            background-color: blue;
+        }   
+        .caixabranca2 {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <article class="caixabranca">
+        <img src="imagens/Lightning Bolt.svg" alt="imagem de um raio">
+        <h1>Web Desig</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+       </article>
+    <article class="caixaazul">
+        <img src="imagens/Lightning Bolt.svg" alt="imagem de um raio">
+        <h1>Web Desig</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+       </article>
+    <article class="caixabranca">
+        <img src="imagens/Lightning Bolt.svg" alt="imagem de um raio">
+        <h1>Web Desig</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+       </article>
+    
+</body>
+</html>
