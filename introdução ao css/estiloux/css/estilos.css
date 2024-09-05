@@ -1,46 +1,190 @@
-     * {
-        margin: 0;
-        padding: 0;
-        box-sizing: 0;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   html, body {
+      height: 100%;
+      /* border: 2px solid red; */
+   }
 
     body {
-        background-color: #EFEFEF;
+        background-color: #efefef;
     }
+  
+    header, footer{
+        width: 100%;
+        height: 80px;
+        background-color: #727272;
+    }
+    h1 {
+        font-family:sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        color: white;
+    }
+     .layout-grid {
+        width: 100%;
+        max-width: 992px;
+        margin: 0 auto;
+        /* border: 3px solid black; */
+     }
+     .header-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+     nav {
+        width: 400px;
+        height: 100%;
+        /* border: 3px solid white;     */
+     }
+     h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 26px;
+        font-weight: 300;
+        color: white;
 
-header {
-    width: 100;
-    height: 80px;
-    background-color: #727272;
-}
-h1 {
-    font-family:sans-serif;
-    font-size: 30x;
-    font-weight: 300;
-    color: #ffffff; 
-}
-.layout-grid {
-    width: 100%;
-    height: 100%;
-    max-width: 992px;
-    margin: 0 auto;
+     }
 
-}
-.header-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    font-weight: 300;
-    color: white;
-}
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 400%;
-    height: 100%;
-}
+     .ux {
+      font-size: 30px;
+      margin-left: 3px;
+      font-style: italic;
+      font-weight: 600;
+      font-family: monospace;
+     }
+     nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 400px;
+        height: 100%;
+
+     }
+     nav a {
+      color: #e8e8e8;
+      text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; 
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      /* border: 2px solid red; */
+      width: 100px;
+      height: 80px;
+      transition: background-color 0.4s,ease-in 1s;
+     }
+
+
+     nav a:hover {
+      /* color: pink; */
+      /* text-decoration: underline; */
+      /* font-style: italic; */
+
+      
+      margin-left: 10px;
+      background-color: rgba(232, 232, 232, 0.5);
+     }
+
+     main {
+      width: 100%;
+      height: 80%;
+      /* border: 3px solid red; */
+     }
+     .main-flex {
+    
+      display: flex;
+      justify-content: space-between;
+      /* align-items: center; */
+
+      width: 100%;
+      height: 100%;
+
+      background-color: #efefef;
+   }
+     .harmonia {
+      /* border: 2px solid blue;  */
+      /* margin-right: 10px; */
+      width: 700px;
+      height: 100%;
+      background-color: rgb(255, 255, 255); 
+       
+     }
+
+     .harmonia img {
+      width: 100%;
+     }
+
+     .harmonia h2 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+     margin-top: 25px;
+     margin-right: 20px;
+     margin-left: 20px;
+     color: #a8a8a8;
+     }
+
+     .harmonia p {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-left: 20px;
+      color: #a8a8a8;
+      
+     }
+     aside {
+      /* border: 2px solid purple; */
+      /* background-color: green; */
+      height: 100%;
+      width:250px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+     ;
+      
+     }
+
+     aside article {
+      background-color: white;
+      width: 100%;
+      height: 100px;
+    
+     }
+     aside .buscar-box {
+     display: flex;
+     flex-wrap:wrap ;
+     }
+
+     aside article h3 {
+        width: 100%      ;
+        color: #a8a8a8;
+        text-decoration: uppercase;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 2px solid #a8a8a8;
+     }
+
+     aside article input{
+        border: 1px solid #a8a8a8;
+        outline: none;
+        padding-right: 5px;
+        padding-left: 5px;
+     }
+     aside article button {
+       width: 30px;
+       background-color: #727272;
+       color: white;
+       border: none;
+       border: 1px solid #727272;
+       cursor: pointer;
+      
+
+     }
+
+     aside article button {
+        width: 30px;
+     }
